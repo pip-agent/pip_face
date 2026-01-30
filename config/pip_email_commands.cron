@@ -1,3 +1,3 @@
 # Pip Face - Email Command Processor
-# Read inbox every 15 minutes and execute commands from Nilson
-*/15 * * * * /home/nl3mos/clawd/scripts/email_commands.py 30 >> /home/nl3mos/clawd/logs/email_commands.log 2>&1
+# Read inbox every 5 minutes and execute commands from Nilson
+*/5 * * * * /home/nl3mos/clawd/scripts/email_commands.py 10 >> /home/nl3mos/clawd/logs/email_commands.log 2>&1
