@@ -1,4 +1,4 @@
-# Personal/config files
+# Personal agent files (load every session, never in git)
 SOUL.md
 AGENTS.md
 IDENTITY.md
@@ -8,13 +8,12 @@ MEMORY.md
 HEARTBEAT.md
 BOOTSTRAP.md
 
-# Personal memory
+# Personal memory & logs
 memory/
-/memory/
+logs/
 
-# Backups
+# Backups (old snapshots)
 backups/
-/backups/
 
 # Python
 __pycache__/
@@ -26,10 +25,6 @@ __pycache__/
 dist/
 build/
 
-# Logs
-*.log
-*.txt
-
 # System
 .DS_Store
 .swp
@@ -38,11 +33,10 @@ build/
 # IDE
 .vscode/
 .idea/
-*.swp
 
-# Canvas
+# Canvas (dynamic UI)
 canvas/
 
-# Config files (examples can be included, but not actual configs)
+# Secrets
 .env
 .env.local
