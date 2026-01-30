@@ -1,0 +1,13 @@
+# Cronograma de Autocuidado do Clawdbot
+
+# Diário: Limpeza básica e verificação de saúde (toda manhã às 03:00)
+0 3 * * * /home/nl3mos/clawd/self_care.sh
+
+# Semanal: Backup completo e verificação detalhada (todo domingo à meia-noite)
+0 0 * * 0 /home/nl3mos/clawd/self_care.sh && cp -r /home/nl3mos/clawd /home/nl3mos/clawd_backup_$(date '+\%Y\%m\%d')
+
+# Quinzenal: Verificação de atualizações
+0 4 */15 * * clawdbot update check
+
+# Mensal: Limpeza profunda de logs e verificação de segurança
+0 2 1 * * find /var/log -type f -mtime +30 -delete

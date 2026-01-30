@@ -1,0 +1,19 @@
+[Unit]
+Description=Pip Face Avatar Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=forking
+User=nl3mos
+WorkingDirectory=/home/nl3mos/clawd
+ExecStart=/home/nl3mos/clawd/pip_autostart.sh
+Restart=always
+RestartSec=10
+
+# Auto-start on boot
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

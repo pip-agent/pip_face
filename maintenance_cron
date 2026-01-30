@@ -1,0 +1,10 @@
+# Manutenção Clawdbot
+
+# Limpeza diária toda manhã às 03:00
+0 3 * * * /home/nl3mos/clawd/maintenance.sh
+
+# Backup semanal completo aos domingos à meia-noite
+0 0 * * 0 /home/nl3mos/clawd/maintenance.sh && cp -r /home/nl3mos/clawd /home/nl3mos/clawd_backup_$(date '+\%Y\%m\%d')
+
+# Verificação de atualizações quinzenalmente
+0 4 */15 * * clawdbot update check
