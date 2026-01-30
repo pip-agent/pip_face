@@ -136,20 +136,21 @@
 
 ---
 
-## 📱 Tools & Automation Skills Assessment
+## 📱 Tools & Automation Classification
 
-From the Clawdbot skills panel:
+### OBRIGATÓRIOS (Must Have)
+- ✅ **Browser** — Chrome/Chromium control (using for GitHub, automation)
+- ✅ **Gmail** — Email SMTP + triggers (working)
+- ✅ **Cron** — Scheduled tasks (ready to use)
+- ✅ **Webhooks** — External event triggers (TESTED ✅)
 
-| Tool | Status | Importance | Notes |
-|------|--------|-----------|-------|
-| **Browser** | ✅ Active | ⭐⭐⭐ | Chrome/Chromium control — using for GitHub |
-| **Canvas** | ✅ Available | ⭐⭐ | Visual workspace, not critical |
-| **Voice** | ⏳ Available | ⭐ | Voice Wake Mode, prefer Telegram |
-| **Gmail** | ✅ Active | ⭐⭐⭐ | Email triggers + SMTP, working |
-| **Cron** | ✅ Active | ⭐⭐⭐ | Scheduled tasks, ready to use |
-| **Webhooks** | ✅ Active | ⭐⭐⭐ | **TESTED** — HTTP 202, runId working |
-| **1Password** | ❌ Unused | ⭐ | Not needed (have ~/.openclaw/.env) |
-| **Weather** | ⏳ Available | ⭐⭐ | Nice-to-have, not critical |
+### OPCIONAIS (Nice to Have)
+- ⏳ **Voice** — Voice Wake Mode (alternative to Telegram, not needed)
+- ⏳ **Canvas** — Visual workspace dashboard (for Phase 2 UI expansion)
+- ⏳ **Weather** — Forecasts & conditions (not critical)
+
+### NÃO USAR (Can Ignore)
+- ❌ **1Password** — Not needed (using ~/.openclaw/.env instead)
 
 ---
 
