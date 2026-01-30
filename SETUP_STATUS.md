@@ -138,6 +138,21 @@
 
 ## 📱 Tools & Automation Classification
 
+### CHAT PROVIDERS
+- ✅ **Telegram** — Currently active, primary interface
+- ⏳ **WhatsApp** — Plugin deleted, can re-enable later if needed
+- ❌ **Discord** — Server/gaming chat, not personal use
+- ❌ **Slack** — Corporate chat, not for individual agent
+- ❌ **Signal** — Privacy alternative, not needed
+- ❌ **iMessage** — Apple ecosystem, not compatible
+- ❌ **Microsoft Teams** — Corporate, not needed
+- ❌ **Nextcloud Talk** — Self-hosted, overkill
+- ❌ **Matrix** — Decentralized protocol, not needed
+- ❌ **Nostr** — Crypto/Bitcoin chat, not relevant
+- ❌ **Tlon Messenger** — Obscure, not needed
+- ❌ **Zalo** — Vietnamese app, not relevant
+- ❌ **WebChat** — Generic browser chat, not needed
+
 ### OBRIGATÓRIOS (Must Have)
 - ✅ **Browser** — Chrome/Chromium control (using for GitHub, automation)
 - ✅ **Gmail** — Email SMTP + triggers (working)
