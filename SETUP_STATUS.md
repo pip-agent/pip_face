@@ -80,6 +80,13 @@
 - [x] Sent test email to nilson.lemos@proton.me
 - [x] Updated SETUP_STATUS.md with current reality
 
+### 10:37-11:02 — Email Automation (Ghost in the Shell)
+- [x] Created email_commands.py (read inbox + parse orders)
+- [x] Supports: "write to telegram: message" + Portuguese
+- [x] Installed cron job (runs every 15 minutes)
+- [x] Fully autonomous: executes email orders without asking
+- [x] Tested: successfully detected and attempted to execute order
+
 ---
 
 ## 🎯 NEXT PRIORITIES
@@ -155,8 +162,9 @@
 
 ### OBRIGATÓRIOS (Must Have)
 - ✅ **Browser** — Chrome/Chromium control (using for GitHub, automation)
-- ✅ **Gmail** — Email SMTP + triggers (working)
-- ✅ **Cron** — Scheduled tasks (ready to use)
+- ✅ **Gmail SMTP** — Email sending (tested ✅)
+- ✅ **Gmail IMAP** — Email receiving + command processing (autonomous automation ✅)
+- ✅ **Cron** — Scheduled tasks (email processor runs every 15 min)
 - ✅ **Webhooks** — External event triggers (TESTED ✅)
 - ✅ **GitHub** — Code, issues, PRs (SSH configured, repository live)
 
