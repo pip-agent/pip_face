@@ -14,8 +14,10 @@
 ### System Configuration
 - [x] **Gateway Auth** — Password-protected, local bind
 - [x] **Browser Control** — Enabled, integrated
-- [x] **Webhook Hooks** — Enabled, /hooks endpoint active
+- [x] **Webhook Hooks** — ✅ Tested & working (HTTP 202, runId generated)
 - [x] **Tailscale** — Funnel mode configured
+- [x] **Cron Jobs** — Available, schedulable
+- [x] **Email Integration** — Gmail SMTP working
 
 ### Agent Setup
 - [x] **Agent Identity** — SOUL.md, AGENTS.md, USER.md defined
@@ -113,19 +115,42 @@
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Clawdbot | ✅ Running | Port 18789, healthy |
+| Clawdbot | ✅ Running | v2026.1.24-3, port 18789, healthy |
 | Telegram | ✅ Working | Bot connected, messaging live |
-| Email | ✅ Working | Gmail SMTP tested, send_email.py ready |
-| GitHub | ✅ Configured | SSH + repo ready, 8 commits |
+| Email (Gmail) | ✅ Working | SMTP tested, send_email.py ready |
+| Webhooks | ✅ Working | HTTP 202 confirmed, runId generated |
+| GitHub | ✅ Configured | SSH + repo ready, 11 commits |
 | Config | ✅ Clean | Personal files isolated |
 | Structure | ✅ Organized | STRUCTURE.md maps everything |
 | pip_face | ✅ Running | Avatar UI working, auto-restarts |
 | Services | ✅ Running | Systemd services active |
 | Messaging | ✅ Working | Message interception (some features disabled) |
+| Cron | ✅ Available | Ready for scheduling |
+| Browser | ✅ Working | Chrome control integrated |
 | Voice/TTS | ❌ Not started | Optional, for audio responses |
-| Dashboard | ❌ Not started | Nice to have, not critical |
+| Canvas | ⏳ Available | Visual workspace, not critical |
+| 1Password | ❌ Not needed | Using ~/.openclaw/.env instead |
+| Dashboard | ❌ Not started | Nice to have (monitoring UI) |
 | Log Aggregation | ❌ Not started | Would help debugging |
+| Weather API | ⏳ Available | Optional, nice-to-have skill |
 
 ---
 
-Last updated: 2026-01-30 10:30 GMT-3 (Pip)
+## 📱 Tools & Automation Skills Assessment
+
+From the Clawdbot skills panel:
+
+| Tool | Status | Importance | Notes |
+|------|--------|-----------|-------|
+| **Browser** | ✅ Active | ⭐⭐⭐ | Chrome/Chromium control — using for GitHub |
+| **Canvas** | ✅ Available | ⭐⭐ | Visual workspace, not critical |
+| **Voice** | ⏳ Available | ⭐ | Voice Wake Mode, prefer Telegram |
+| **Gmail** | ✅ Active | ⭐⭐⭐ | Email triggers + SMTP, working |
+| **Cron** | ✅ Active | ⭐⭐⭐ | Scheduled tasks, ready to use |
+| **Webhooks** | ✅ Active | ⭐⭐⭐ | **TESTED** — HTTP 202, runId working |
+| **1Password** | ❌ Unused | ⭐ | Not needed (have ~/.openclaw/.env) |
+| **Weather** | ⏳ Available | ⭐⭐ | Nice-to-have, not critical |
+
+---
+
+Last updated: 2026-01-30 10:40 GMT-3 (Pip)
