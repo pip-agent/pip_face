@@ -152,6 +152,7 @@
 - ⏳ **Camera** — Photo/video capture (for image recognition in future)
 - ⏳ **Peekaboo** — Screen capture (useful for debugging)
 - ⏳ **Spotify** — Music playback control (nice-to-have, can command music)
+- ⏳ **Notion** — Workspace/databases (if we want structured memory/docs storage later)
 
 ### NÃO USAR (Not Needed)
 - ❌ **1Password** — Using ~/.openclaw/.env instead
@@ -168,7 +169,6 @@
 - ❌ **Things 3** — GTD task manager (desktop app, no automation benefit)
 - ❌ **Bear Notes** — Markdown editor (just a note editor, no automação)
 - ❌ **Obsidian** — Knowledge graph (redundant, we have MEMORY.md)
-- ❌ **Notion** — Workspace/databases (nice-to-have but adds complexity; MEMORY.md sufficient)
 
 ---
 
