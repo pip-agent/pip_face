@@ -148,9 +148,14 @@
 - ⏳ **Voice** — Voice Wake Mode (alternative to Telegram, not needed)
 - ⏳ **Canvas** — Visual workspace dashboard (for Phase 2 UI expansion)
 - ⏳ **Weather** — Forecasts & conditions (not critical)
+- ⏳ **Camera** — Photo/video capture (for image recognition in future)
+- ⏳ **Peekaboo** — Screen capture (useful for debugging)
 
-### NÃO USAR (Can Ignore)
-- ❌ **1Password** — Not needed (using ~/.openclaw/.env instead)
+### NÃO USAR (Not Needed)
+- ❌ **1Password** — Using ~/.openclaw/.env instead
+- ❌ **ImageGen** — AI image generation (no practical use for our workflow)
+- ❌ **GIF Search** — Find GIFs (unnecessary for automation agent)
+- ❌ **Twitter/X** — Post tweets (not part of core mission; can re-enable later if needed)
 
 ---
 
