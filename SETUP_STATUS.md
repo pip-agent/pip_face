@@ -153,4 +153,28 @@ From the Clawdbot skills panel:
 
 ---
 
-Last updated: 2026-01-30 10:40 GMT-3 (Pip)
+## 🚀 Future Roadmap (Ideas for Later)
+
+### Phase 2: Visual Dashboard
+- [ ] Create `/pip_status` command
+- [ ] Generate HTML status page in `canvas/`
+- [ ] Show: uptime, memory, messages, last activities
+- [ ] Render via Canvas panel (visual dashboard)
+- [ ] Make it pretty + interactive
+
+### Phase 3: Enhanced Monitoring
+- [ ] Centralized log search/analysis
+- [ ] Voice/TTS integration (audio responses)
+- [ ] Advanced message interception filters
+- [ ] Automated health checks
+
+### Phase 4: Extended Integration
+- [ ] WhatsApp re-enable (if needed later)
+- [ ] Additional API integrations
+- [ ] Custom skills development
+
+**Note:** These are ideas, not priorities. Current system is 100% functional as-is.
+
+---
+
+Last updated: 2026-01-30 10:44 GMT-3 (Pip)
