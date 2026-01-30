@@ -150,12 +150,18 @@
 - ⏳ **Weather** — Forecasts & conditions (not critical)
 - ⏳ **Camera** — Photo/video capture (for image recognition in future)
 - ⏳ **Peekaboo** — Screen capture (useful for debugging)
+- ⏳ **Spotify** — Music playback control (nice-to-have, can command music)
 
 ### NÃO USAR (Not Needed)
 - ❌ **1Password** — Using ~/.openclaw/.env instead
 - ❌ **ImageGen** — AI image generation (no practical use for our workflow)
 - ❌ **GIF Search** — Find GIFs (unnecessary for automation agent)
 - ❌ **Twitter/X** — Post tweets (not part of core mission; can re-enable later if needed)
+- ❌ **Sonos** — Multi-room audio (house automation out of scope)
+- ❌ **Shazam** — Song recognition (not needed)
+- ❌ **Philips Hue** — Smart lighting (Smart Home not core to Pip mission)
+- ❌ **8Sleep** — Smart mattress (overkill, unnecessary)
+- ❌ **Home Assistant** — Home automation hub (IoT not part of our focus)
 
 ---
 
