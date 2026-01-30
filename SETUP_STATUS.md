@@ -143,6 +143,7 @@
 - ✅ **Gmail** — Email SMTP + triggers (working)
 - ✅ **Cron** — Scheduled tasks (ready to use)
 - ✅ **Webhooks** — External event triggers (TESTED ✅)
+- ✅ **GitHub** — Code, issues, PRs (SSH configured, repository live)
 
 ### OPCIONAIS (Nice to Have)
 - ⏳ **Voice** — Voice Wake Mode (alternative to Telegram, not needed)
@@ -162,6 +163,12 @@
 - ❌ **Philips Hue** — Smart lighting (Smart Home not core to Pip mission)
 - ❌ **8Sleep** — Smart mattress (overkill, unnecessary)
 - ❌ **Home Assistant** — Home automation hub (IoT not part of our focus)
+- ❌ **Apple Notes** — macOS/iOS notes (Apple ecosystem, not for Linux)
+- ❌ **Apple Reminders** — Task management (Apple ecosystem, not for Linux)
+- ❌ **Things 3** — GTD task manager (desktop app, no automation benefit)
+- ❌ **Bear Notes** — Markdown editor (just a note editor, no automação)
+- ❌ **Obsidian** — Knowledge graph (redundant, we have MEMORY.md)
+- ❌ **Notion** — Workspace/databases (nice-to-have but adds complexity; MEMORY.md sufficient)
 
 ---
 
